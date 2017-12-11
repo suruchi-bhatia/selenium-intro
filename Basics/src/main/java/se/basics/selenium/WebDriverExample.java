@@ -27,7 +27,7 @@ public class WebDriverExample {
         // alternative keyword for navigation
         browser.get("http://www.fb.com");
         System.out.println(browser.getTitle() + "- - - - is the title of the current webpage");
-        System.out.println(browser.getCurrentUrl() + " - - - -is the URL");
+        System.out.println(browser.getCurrentUrl() + " -  asdf a- - -is the URL");
 
         // capture some informatin from the website
         // - title of the page
