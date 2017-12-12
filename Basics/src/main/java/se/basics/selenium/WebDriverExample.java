@@ -18,7 +18,7 @@ public class WebDriverExample {
         // navigate to a website
         browser.navigate().to("http://www.google.com");
 
-        // capture the titile
+        // capture the title
         System.out.println(browser.getTitle() + " - - - - is the title of the current webpage");
 
         // current url of the webpage
@@ -27,15 +27,15 @@ public class WebDriverExample {
         // alternative keyword for navigation
         browser.get("http://www.fb.com");
         System.out.println(browser.getTitle() + "- - - - is the title of the current webpage");
-        System.out.println(browser.getCurrentUrl() + " -  asdf a- - -is the URL");
+        System.out.println(browser.getCurrentUrl() + " - - - -is the URL");
 
-        // capture some informatin from the website
+        // capture some information from the website
         // - title of the page
         // - url of the page
         // -...t.ex
         // close the browser
         browser.close();
-// the below line will give nll pointer exception as the browser has already been closed.
+// the below line will give null pointer exception as the browser has already been closed.
 //        System.out.println(browser.getTitle());
 
     }

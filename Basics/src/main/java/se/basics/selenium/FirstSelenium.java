@@ -4,6 +4,8 @@ public class FirstSelenium {
 
     public static void main(String[] args) {
         System.out.println("First change on the branch");
+
+        simpleMessage();
     }
 
     public static void simpleMessage() {
@@ -23,7 +25,7 @@ pull the updated code from the remote repository to the local
 
 
 
-General activities:
+General activities we do on a browser:
 - write text on the webpage
 - click on links/buttons
 - select radio buttons
