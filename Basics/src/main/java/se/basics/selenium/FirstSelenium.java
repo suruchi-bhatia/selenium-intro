@@ -36,7 +36,7 @@ General activities we do on a browser:
 1. Browser
 2. Exact location where to perform the action
 3. Command - action to be performed
-4. test data**
+4. sweden.test data**
 
 
  */

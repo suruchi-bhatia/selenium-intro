@@ -7,7 +7,5 @@ public class ExternalFunctionPractice {
         FunctionsPractice.goodMorning(":)");
         FunctionsPractice.getProduct(4, 5);
         FunctionsPractice.doMultiply();
-
-
     }
 }
