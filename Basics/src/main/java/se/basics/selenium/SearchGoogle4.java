@@ -7,11 +7,11 @@ import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchGoogle {
+public class SearchGoogle4 {
 
 
     public static void main(String[] args) {
-        CommonFunctions commonFunctions = new CommonFunctions();
+        CommonFunctions3 commonFunctions = new CommonFunctions3();
         WebDriver myBrowser = commonFunctions.launchBrowser();
 
         myBrowser.navigate().to("http://www.google.com");

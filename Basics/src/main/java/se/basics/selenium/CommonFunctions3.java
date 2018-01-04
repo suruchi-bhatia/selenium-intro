@@ -3,7 +3,7 @@ package se.basics.selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CommonFunctions {
+public class CommonFunctions3 {
 
     public WebDriver launchBrowser(String webUrl) {
         WebDriver driver = launchBrowser();

@@ -1,6 +1,6 @@
 package se.basics.selenium;
 
-public class FirstSelenium {
+public class FirstSelenium1 {
 
     public static void main(String[] args) {
         System.out.println("First change on the branch");

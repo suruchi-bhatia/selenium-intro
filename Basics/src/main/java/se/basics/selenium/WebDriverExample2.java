@@ -3,7 +3,7 @@ package se.basics.selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WebDriverExample {
+public class WebDriverExample2 {
 
 
     public static void main(String[] args) {
