@@ -1,9 +1,11 @@
 package se.basics.selenium;
 
-public class FirstSelenium {
+public class FirstSelenium1 {
 
     public static void main(String[] args) {
         System.out.println("First change on the branch");
+
+        simpleMessage();
     }
 
     public static void simpleMessage() {
@@ -23,7 +25,7 @@ pull the updated code from the remote repository to the local
 
 
 
-General activities:
+General activities we do on a browser:
 - write text on the webpage
 - click on links/buttons
 - select radio buttons
@@ -34,7 +36,7 @@ General activities:
 1. Browser
 2. Exact location where to perform the action
 3. Command - action to be performed
-4. test data**
+4. sweden.test data**
 
 
  */
