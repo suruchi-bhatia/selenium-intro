@@ -1,6 +1,6 @@
 package se.basics.selenium;
 
-public class CheckboxExample {
+public class CheckboxExample6 {
     public static void main(String[] args) {
 
         //launch chrome

@@ -7,11 +7,11 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class DropDownExample {
+public class DropDownExample5 {
     public static void main(String[] args) {
 
         // Laucnh chorme and navigate to the website
-        CommonFunctions co = new CommonFunctions();
+        CommonFunctions3 co = new CommonFunctions3();
         WebDriver driver = co.launchBrowser("http://the-internet.herokuapp.com/dropdown");
 
         // select the option from the dropdown
