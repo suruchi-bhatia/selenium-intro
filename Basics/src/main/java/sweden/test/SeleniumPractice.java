@@ -14,7 +14,7 @@ public class SeleniumPractice {
 
         System.out.println("Title for this site is : " + driver.getTitle());
 
-        System.out.println("URL of current site is " + driver.getCurrentUrl());
+        System.out.println("URL of current site  is " + driver.getCurrentUrl());
 
         driver.get("http:\\fb.com");
 
@@ -26,6 +26,7 @@ public class SeleniumPractice {
 
         }
 
-    }
+        driver.close();
 
+    }
 }
