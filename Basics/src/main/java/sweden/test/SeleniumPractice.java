@@ -22,10 +22,6 @@ public class SeleniumPractice {
 
         driver.navigate().to("http:\\www.mail.yahoo.com");
 
-        synchronized (driver) {
-
-        }
-
         driver.close();
 
     }
