@@ -24,8 +24,8 @@ public class ManageOptions7 {
         System.out.println(size.getWidth() + "is the width of the browser");
 
 
-        String sessionId = driver.getWindowHandle();
-        System.out.println("The session ID of the parent window is: " + sessionId);
+        driver.getWindowHandle();
+        System.out.println("The session ID of the parent window is: " + driver.getWindowHandle());
 
         Set<String> sessionIds = driver.getWindowHandles();
 
@@ -33,6 +33,7 @@ public class ManageOptions7 {
         for (String id : sessionIds) {
             System.out.println(id + " is the window ID ");
             driver.switchTo().window(id);
+
             // capture the title of the window
             System.out.println("Title of this site is - " + driver.getTitle());
             System.out.println("Current URL of the site is - " + driver.getCurrentUrl());
