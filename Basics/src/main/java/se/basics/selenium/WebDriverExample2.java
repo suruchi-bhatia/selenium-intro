@@ -3,10 +3,12 @@ package se.basics.selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.net.MalformedURLException;
+
 public class WebDriverExample2 {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MalformedURLException {
 
         // as the error messsage says: Set the system property for webdriver.chrome.driver with path to the exe file
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\suruc\\jars\\chromedriver.exe");
@@ -17,6 +19,7 @@ public class WebDriverExample2 {
 
         // navigate to a website
         browser.navigate().to("http://www.google.com");
+        //browser.navigate().to(new URL("http://www.google.com"));
 
         // capture the title
         System.out.println(browser.getTitle() + " - - - - is the title of the current webpage");
