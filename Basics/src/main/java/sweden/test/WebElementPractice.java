@@ -43,9 +43,20 @@ public class WebElementPractice {
         // capture all errors what ever is possible
         // print all the error messages
 
-        String print = browser.findElement(By.xpath("//*[@id='errormsg_0_LastName']")).getText();
-        System.out.println("Error Message printed : " + print);
+        String print1 = browser.findElement(By.xpath("//*[@id='errormsg_0_FirstName']")).getText();
+        System.out.println("Error message printed for blank First Name : " + print1);
 
+        String print2 = browser.findElement(By.id("errormsg_0_Passwd")).getText();
+        System.out.println("Error message printed for short password : " + print2);
+
+        String print3 = browser.findElement(By.id("errormsg_0_PasswdAgain")).getText();
+        System.out.println("Error message printed for wrong password : " + print3);
+
+        String print4 = browser.findElement(By.id("errormsg_0_BirthYear")).getText();
+        System.out.println("Error message printed for blank Birthyear column : " + print4);
+
+        String print5 = browser.findElement(By.id("errormsg_0_Gender")).getText();
+        System.out.println("Error message printed for blank Gender column : " + print5);
 
         /*
           1. enter the firstname

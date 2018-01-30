@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.Set;
 
-public class CookieExample {
+public class CookieExample8 {
     public static void main(String[] args) {
 
         CommonFunctions3 cf = new CommonFunctions3();
