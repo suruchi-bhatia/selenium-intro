@@ -61,7 +61,7 @@ public class WebTableExample9 {
          *  Data: All the rows are stored in a list<webelement>
          * Step 5: Using the row variable we calculated the cell count
          *  Data: All the cells are captured from Row - 0 to count the number of columns
-         *  Extra: We tried to find the same cell count with different combinations
+         *  AssignmentSandra: We tried to find the same cell count with different combinations
          * Step 6: Extracted the data from R3 - C4
          *  Hardcoded the row number and col number to get the text
          * Step 7: Using the for loop starting from Row 1 (as the row 0 is the header)

@@ -29,7 +29,7 @@ public class ElementPractice {
         e.sendKeys("Sandra Bullock movies");
 
         // Step to select one entry form the search - auto - suggestions list displayed
-        driver.findElement(By.xpath(".//*[@id='sbse0']/div[2]")).click();
+        driver.findElement(By.xpath("//*[@id='sbse0']/div[2]")).click();
 
         // Step to click on the first search result
         driver.findElement(By.xpath("//div[@id='search']//div[@class='srg']/div[1]//h3/a")).click();
